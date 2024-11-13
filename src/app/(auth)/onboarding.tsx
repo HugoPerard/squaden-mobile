@@ -40,14 +40,14 @@ const Onboarding = () => {
         </Text>
       </Stack>
       <Stack spacing="md" alignItems="center">
-        <Button
+        {/* <Button
           borderRadius="md"
           full
           onPress={() => router.push('/register')}
           colorScheme="brand"
         >
           {t('onboarding:actions.register')}
-        </Button>
+        </Button> */}
         <Stack direction="row" alignItems="center">
           <Text
             onPress={handleOpenLogin}
