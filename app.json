@@ -12,6 +12,7 @@
       "backgroundColor": "#ffffff"
     },
     "assetBundlePatterns": ["**/*"],
+    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "undefined"
@@ -46,8 +47,9 @@
           "bluetoothAlwaysPermission": "Allow $(PRODUCT_NAME) to connect to bluetooth devices"
         }
       ],
-      ["expo-router"],
-      "expo-font"
+      "expo-router",
+      "expo-font",
+      "expo-localization"
     ],
     "extra": {
       "eas": {

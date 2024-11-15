@@ -37,7 +37,7 @@ const useProtectedRoute = () => {
         router.replace('/onboarding');
         currentRouteRef.current = 'auth';
       } else if (isAuthentificated && currentRouteRef.current !== 'tabs') {
-        router.replace('/(tabs)/home');
+        router.replace('/company-selection');
         currentRouteRef.current = 'tabs';
       }
     }, 100);

@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 
 import { Stack } from '@/layout/Stack';
 
-const AuthStack = () => {
+export default function () {
   const { t } = useTranslation();
   return (
     <Stack
@@ -18,6 +18,4 @@ const AuthStack = () => {
       ]}
     />
   );
-};
-
-export default AuthStack;
+}
